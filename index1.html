@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Мой сайт</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; }
+    header { background:#0ef; padding:20px; text-align:center; }
+    nav { display:flex; justify-content:center; gap:12px; flex-wrap:wrap; }
+    nav a { text-decoration:none; color:#000; background:#eee; padding:8px 12px; border-radius:6px; }
+    main { padding:20px; }
+    @media (max-width:768px) {
+      nav { flex-direction:column; }
+      nav a { text-align:center; font-size:18px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Добро пожаловать!</h1>
+    <nav>
+      <a href="#">Главная</a>
+      <a href="#">О нас</a>
+      <a href="#">Контакты</a>
+    </nav>
+  </header>
+  <main>
+    <p>Это мой первый сайт на GitHub Pages.</p>
+  </main>
+</body>
+</html>
